@@ -1,0 +1,63 @@
+:root {
+    --primaryFont: "Poppins",sans-serif;
+}
+#about{
+    background-color: rgb(33, 33, 33);
+}
+.style-circle, .style-line{
+    background-color: rgb(245, 101, 57) !important;
+}
+.about .line-styling {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 50px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .line-styling .style-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.about .line-styling .style-line {
+    width: 95%;
+    height: 5px;
+    border-radius: 10px;
+}
+.about-body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 8rem;
+}
+.about-description {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 0.5 1;
+    width: 100%;
+}
+.about-description > h2{
+    font-family: var(--primaryFont);
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.who{
+    color: rgb(245, 101, 57) !important;
+}
+.who-desc{
+    color: white;
+}
+.about-body, .about-description {
+    display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+.about-img>img {
+    width: 300px;
+}

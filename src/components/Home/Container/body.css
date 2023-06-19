@@ -1,0 +1,155 @@
+.section-lg{
+    padding-top: 6rem;
+}
+.text-color{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-shaped {
+    position: relative;
+    overflow: hidden;
+}
+.display-3, .display-4{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.lead {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+.lead, p {
+    font-weight: 300;
+    line-height: 1.7;
+}
+.bg-gradient-info {
+    background: rgb(33, 33, 33);
+}
+.section-shaped .shape {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.section-shaped .shape-style-1 :first-child {
+    left: -4%;
+    bottom: auto;
+    background: hsla(0,0%,100%,.1);
+}
+
+.section-shaped .shape-style-1 :first-child {
+    left: -4%;
+    bottom: auto;
+    background: hsla(0,0%,100%,.1);
+}
+.section-shaped .shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.section-shaped .shape span {
+    position: absolute;
+}
+.section-shaped .shape-style-1 :nth-child(2) {
+    right: 4%;
+    top: 10%;
+    background: hsla(0,0%,100%,.1);
+}
+.section-shaped .shape-style-1 :nth-child(3) {
+    top: 280px;
+    right: 5.66666%;
+    background: hsla(0,0%,100%,.3);
+}
+.section-shaped .shape-style-1 :nth-child(4) {
+    top: 320px;
+    right: 7%;
+    background: hsla(0,0%,100%,.15);
+}
+.section-shaped .shape-style-1 :nth-child(5) {
+    top: 38%;
+    left: 1%;
+    right: auto;
+    background: hsla(0,0%,100%,.05);
+}
+.section-shaped .shape-style-1 :nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 44%;
+    left: 10%;
+    right: auto;
+    background: hsla(0,0%,100%,.15);
+}
+.section-shaped .shape-style-1 :nth-child(7) {
+    bottom: 50%;
+    right: 36%;
+    background: hsla(0,0%,100%,.04);
+}
+.section-shaped .shape-style-1 :nth-child(8) {
+    bottom: 70px;
+    right: 2%;
+    background: hsla(0,0%,100%,.2);
+}
+.section-shaped .shape-style-1 :nth-child(9) {
+    bottom: 1%;
+    right: 2%;
+    background: hsla(0,0%,100%,.1);
+}
+.btn-cust {
+    border-radius: 50% !important;
+    width: 2.375rem;
+    height: 2.375rem;
+    padding: 0 !important;
+}
+.btn-fb{
+    color: #fff !important;
+    background-color: #3b5999 !important;
+    border-color: #3b5999 !important;
+    margin-right: 0.5rem;
+}
+.btn-twt{
+    color: #fff !important;
+    background-color: #1da1f2 !important;
+    border-color: #1da1f2 !important;
+    margin-right: 0.5rem;
+}
+.btn-git {
+    color: #fff !important;
+    background-color: #222 !important;
+    border-color: #222 !important;
+    margin-right: 0.5rem;
+}
+.btn-link{
+    color: #fff !important;
+    background-color: #1da1f2 !important;
+    border-color: #1da1f2 !important;
+    margin-right: 0.5rem;
+}
+.btn-insta{
+    color: #fff !important;
+    background-color: #e4405f !important;
+    border-color: #e4405f !important;
+    margin-right: 0.5rem;
+}
+.ml-2{
+    margin-left: 1rem;
+}
+.btn-resume{
+    background-color: rgb(245, 101, 57) !important;
+    color: black !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+    border: 3px solid #f56539 !important;
+    height: 50px;
+    font-size: 1rem !important;
+    transition: 100ms ease-out !important;
+    font-weight: 500 !important;
+    border-radius: 30px !important;
+    text-transform: inherit !important;
+    text-decoration: none !important;
+}
+.btn-resume:hover{
+    color: #212121 !important;
+    border: 3px solid #eaeaea !important;
+    background-color: #eaeaea !important;
+}

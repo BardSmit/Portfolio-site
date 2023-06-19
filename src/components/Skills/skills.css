@@ -1,0 +1,8 @@
+.skills-heading{
+    color: rgb(245, 101, 57);
+}
+.skills, .skills-headerr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}

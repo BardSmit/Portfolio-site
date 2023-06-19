@@ -1,0 +1,19 @@
+#nav-title {
+        font-family: 'Comforter', cursive;
+        text-transform: capitalize;
+}
+.ml-auto {
+        margin-left: auto;
+}
+.header-global {
+        background-color: rgb(245, 101, 57);
+}
+      
+#nav-title {
+        margin-right: 16px;
+}
+      
+.navbar-nav {
+        margin-right: 16px;
+}
+      

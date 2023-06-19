@@ -1,0 +1,74 @@
+.education{
+    background-color: rgb(33, 33, 33) !important;
+    min-height: 100vh;
+
+}
+.education-body {
+    flex-direction: row;
+    align-items: center;
+    color: rgba(62,195,55,.702);
+}
+.education-description {
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7%;
+}
+.education-card{
+        background-color: #f565394d !important;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 90%;
+        height: 140px;
+        padding: 1.5rem;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+        transition: background-color .2s ease-in-out;
+}
+.education-body, .education-description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.education-heading {
+    color: rgb(245, 101, 57) !important;
+}
+.education-description>h1 {
+    font-size: 3.5rem !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    margin-bottom: 2rem !important;
+}
+.education-image {
+    box-sizing: border-box;
+    padding: 1rem;
+    flex: 0.35 1;
+    margin-top: 1rem;
+    pointer-events: none;
+}
+.education-image>img {
+    width: 100%;
+}
+.education-details {
+    margin-left: 0.6rem;
+}
+.educard-img {
+    background-color: rgb(245, 101, 57) !important;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+h6{
+    color: rgb(245, 101, 57) !important;
+}
+h4{
+    color: rgb(234, 234, 234) !important;
+}
+h5 {
+    color: rgba(234, 234, 234, 0.8) !important;
+}
